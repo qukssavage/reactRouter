@@ -43,3 +43,19 @@
   align-items: center;
   gap: 15px;
 }
+
+.users {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.users__item {
+  border-radius: 20px;
+  box-shadow: 0 5px 5px 10px #24242444;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
