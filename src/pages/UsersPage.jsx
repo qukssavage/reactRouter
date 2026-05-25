@@ -26,11 +26,15 @@ const UsersPage = () => {
   }, []);
 
   return (
-    <div className="users__item">
-      <p>{user.firstName}</p>
-      <p>{user.email}</p>
-      <p>{date(user.birthDate)}</p>
-    </div>
+    <>
+      {user && (
+        <div className="users__item">
+          <p>{user.firstName}</p>
+          <p>{user.email}</p>
+          <p>{date(user.birthDate)}</p>
+        </div>
+      )}
+    </>
   );
 };
 
