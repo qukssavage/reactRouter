@@ -4,6 +4,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: sans-serif;
 }
 
 .container {
@@ -12,4 +13,33 @@
   height: 100%;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.header {
+  padding: 15px 0;
+  background: #242424;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }

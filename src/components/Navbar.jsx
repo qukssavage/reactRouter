@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <header className="header">
-      <div className="container">
+      <div className="container nav">
         <a href="#" className="logo">
           LOGO
         </a>
